@@ -2,7 +2,7 @@ import { AppProps } from "next/app";
 import Head from "next/head";
 import ProgressBar from "@badrap/bar-of-progress";
 import Router from "next/router";
-import { QueryClient, QueryClientProvider } from "react-query";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { StoreProvider, Components } from "ui";
 import { Div, P, Span } from "react-with-native";
 import { pagesObject } from "ui";
@@ -18,6 +18,16 @@ import "react-toastify/dist/ReactToastify.css";
 import "react-datetime/css/react-datetime.css";
 import "rc-time-picker/assets/index.css";
 import "react-datepicker/dist/react-datepicker.css";
+
+import "react-with-native/css.css";
+import "react-with-native-alert/css.css";
+import "react-with-native-modal/css.css";
+import "react-with-native-notification/css.css";
+import "react-with-native-ui/css.css";
+import "react-with-native-form-inputs/css.css";
+import "react-with-native-form/css.css";
+import "react-with-native-select/css.css";
+
 const progress = new ProgressBar();
 
 //Binding events.
