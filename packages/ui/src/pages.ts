@@ -4,6 +4,7 @@ import form from "./pages/form";
 import utilities from "./pages/utilities";
 import login from "./pages/login";
 import signup from "./pages/signup";
+import todo from "./pages/todo";
 import messages from "./pages/messages";
 import { PageType } from "./types";
 import users from "./pages/users";
@@ -16,6 +17,7 @@ export const pagesObject = {
   utilities,
   login,
   signup,
+  todo,
   messages,
   users,
 };
