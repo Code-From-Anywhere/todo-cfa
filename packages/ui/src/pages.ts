@@ -8,6 +8,7 @@ import todo from "./pages/todo";
 import messages from "./pages/messages";
 import { PageType } from "./types";
 import users from "./pages/users";
+import todos from "./pages/todos";
 
 // here we create an object containing all our pages
 export const pagesObject = {
@@ -20,6 +21,7 @@ export const pagesObject = {
   todo,
   messages,
   users,
+  todos,
 };
 // based on this, a type is created for all page keys
 type PageKey = keyof typeof pagesObject;
