@@ -8,6 +8,10 @@ const fields = [
     field: "author",
     title: "Author",
   }),
+  makeField("text", {
+    field: "title",
+    title: "Title",
+  }),
   makeField("textArea", {
     field: "text",
     title: "Todo",
@@ -24,6 +28,7 @@ const Page: RWNPage = () => {
       <Form<{
         author: InputValues["text"];
         text: InputValues["textArea"];
+        title: InputValues["text"];
       }>
         title="Make new todo"
         fields={fields}

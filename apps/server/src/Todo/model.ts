@@ -16,6 +16,9 @@ export class Todo
   public text!: string;
 
   @Column
+  public title!: string;
+
+  @Column
   public status!: "todo" | "doing" | "done";
 }
 

@@ -29,7 +29,10 @@ const Page: RWNPage = () => {
     return (
       <Div key={`todo${todo.id}`}>
         <P>
-          <Span textClassName="font-bold">{todo.author}</Span>: {todo.text}
+          <Span textClassName="font-bold">
+            {todo.title} ({todo.author})
+          </Span>
+          : {todo.text}
         </P>
       </Div>
     );

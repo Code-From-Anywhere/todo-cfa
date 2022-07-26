@@ -6,6 +6,7 @@ export interface TodoEndpoint extends Endpoint {
   body: {
     author: string;
     text: string;
+    title: string;
   };
   response: DefaultResponse;
 }

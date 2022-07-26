@@ -4,6 +4,7 @@ export interface TodoType extends DefaultModelType {
   status: "todo" | "doing" | "done";
   author: string;
   text: string;
+  title: string;
 }
 
 /**

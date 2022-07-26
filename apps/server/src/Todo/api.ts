@@ -3,12 +3,13 @@ import Todo from "./model";
 
 module.exports = [
   makeEndpoint("todo", "POST", async (ctx) => {
-    const { author, text } = ctx.body;
+    const { author, text, title } = ctx.body;
 
     const todo = await Todo.create({
       author,
       status: "todo",
       text,
+      title,
     });
 
     //todo: create and send password to the todos email
