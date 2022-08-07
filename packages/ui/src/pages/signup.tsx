@@ -10,6 +10,21 @@ const fields = [
   makeField("text", {
     field: "email",
     title: "Email",
+    
+  }),
+  makeField("text", {
+    field: "name",
+    title: "Name", 
+  }),
+
+  makeField("text", {
+    field: "password",
+    title: "Password", 
+  }),
+
+  makeField("text", {
+    field: "username",
+    title: "Username", 
   }),
 ];
 
@@ -22,6 +37,9 @@ const Page: RWNPage = () => {
     <Div scroll className="py-4 px-8 lg:px-20">
       <Form<{
         email: InputValues["text"];
+        name: InputValues["text"];
+        username:InputValues["text"];
+        password: InputValues["text"];
       }>
         title="Sign up"
         fields={fields}

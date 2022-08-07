@@ -19,14 +19,14 @@ import "react-datetime/css/react-datetime.css";
 import "rc-time-picker/assets/index.css";
 import "react-datepicker/dist/react-datepicker.css";
 
-import "react-with-native/css.css";
-import "react-with-native-alert/css.css";
-import "react-with-native-modal/css.css";
-import "react-with-native-notification/css.css";
-import "react-with-native-ui/css.css";
-import "react-with-native-form-inputs/css.css";
-import "react-with-native-form/css.css";
-import "react-with-native-select/css.css";
+//  import "react-with-native/css.css";
+//  import "react-with-native-alert/css.css";
+// import "react-with-native-modal/css.css";
+//  import "react-with-native-notification/css.css";
+//  import "react-with-native-ui/css.css";
+    import "react-with-native-form-inputs/css.css";
+//  import "react-with-native-form/css.css";
+    import "react-with-native-select/css.css";
 
 const progress = new ProgressBar();
 

@@ -5,6 +5,9 @@ export interface SignupEndpoint extends Endpoint {
   method: "POST";
   body: {
     email: string;
+    name: string;
+    username: string;
+    password: string;
     subscribeToNewsletter?: boolean;
   };
   response: DefaultResponse;

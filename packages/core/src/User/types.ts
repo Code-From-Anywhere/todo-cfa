@@ -18,7 +18,7 @@ export interface PublicUserType extends DefaultModelType {
   name: string;
   username: string;
   image: string;
-  email: string;
+  email: string ;
 }
 
 export interface MeUserType extends PublicUserType {
@@ -27,8 +27,6 @@ export interface MeUserType extends PublicUserType {
 }
 
 export interface UserType extends MeUserType {
-  onlineAt: number;
   password: string;
-  code: string;
-  verified: boolean;
 }
+
